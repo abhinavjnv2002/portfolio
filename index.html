@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PortfolioWebsite</title>
+    <script src="https://kit.fontawesome.com/72471cf0fe.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css" />
+    
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <a href="index.html" ><img src="Images/logo.png" alt="logo" class="logo" /></a>
+          <ul id="sidemenu">
+            <i class="fas fa-times "></i>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#services">SERVICES</a></li>
+            <li><a href="#portfolio">PORTFOLIO</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+            <i class="fas fa-times " onclick="closemenu()"></i>
+          </ul>
+          <i class="fas fa-bars"  onclick="openmenu()"></i>
+        </nav>
+
+        <div class="header-text">
+          <p>Developer</p>
+          <h1>Hi, I'm <span>Abhinav</span><br />Prakash From India</h1>
+        </div>
+      </div>
+    </div>
+    <!-- ----------about---------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/Abhinav_pic.png" alt="pic">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>As an computer science student, I love figuring out how computers and software work. I'm always curious and eager to learn about new things in technology, like coding and artificial intelligence. In class, I show that I'm smart and enjoy solving problems. Outside of school, I work on coding projects and keep up with the latest tech trends. I have a clear idea of what I want to do in the tech industry, and I'm working hard to become really good at it. </p>
+                    <div class="tab-titles ">
+                        <div class="tab-links active-link" onclick="opentab('skills')">Skills</div>
+                        <div class="tab-links" onclick="opentab('Experiance')">Experiance</div>
+                        <div class="tab-links" onclick="opentab('Education')">Education</div>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>DSA: </span><br>Intermideate Data Structure and algorithms</li>
+                            <li><span>Web Development: </span><br>Web app development</li>
+                            <li><span>Core java: </span><br>Intermideate java coder</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experiance">
+                      <ul>
+                          <li><span>2021 current</span><br>cse student</li>
+                          <li><span>2018 2021</span><br>iit aspirants</li>
+                          <li><span>2013 2018</span><br>being navodayan </li>
+                          <li><span>2009 2013</span><br>student at tps</li>
+                      </ul>
+                  </div>
+                  <div class="tab-contents" id="Education">
+                    <ul>
+                        <li><span>current</span><br>BTech CSE at techno main salt lake</li>
+                        <li><span>2020</span><br>12th pass BSEB</li>
+                        <li><span>2018</span><br>10th pass CBSE</li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ------sevices---------- -->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <p>
+              Web design is the creative process of crafting visually appealing and functional websites. It involves a combination of graphic design, user experience (UX) design, and coding skills. A well-designed website not only looks good but also ensures an intuitive and seamless user experience, catering to diverse needs and enhancing online engagement.
+            </p>
+            <a href="https://en.wikipedia.org/wiki/Web_design">Learn more</a>
+            </div>
+            <div>
+              <i class="fas fa-crop-alt"></i>
+            <h2>UI/UX design</h2>
+            <p>
+              UI/UX design is the art of creating user-friendly and visually appealing interfaces. It blends user interface (UI) aesthetics with user experience (UX) functionality, ensuring seamless interactions. Designers prioritize simplicity and accessibility, aiming to enhance user satisfaction. Through thoughtful layouts and intuitive navigation, UI/UX design optimizes digital experiences, making technology more accessible and enjoyable
+            </p>
+            <a href="https://en.wikipedia.org/wiki/User_experience_design">Learn more</a>
+            </div>
+            <div>
+              <i class="fab fa-app-store"></i>
+            <h2>APP Design</h2>
+            <p>
+              App design is a crucial aspect of creating user-friendly and visually appealing mobile applications. It involves crafting intuitive interfaces, choosing engaging color schemes, and optimizing user interactions. A successful app design seamlessly merges functionality with aesthetics, enhancing the overall user experience and ensuring widespread usability in the competitive digital landscape.
+            </p>
+            <a href="https://en.wikipedia.org/wiki/Mobile_app_development">Learn more</a>
+            </div>
+        </div>
+      </div>
+    </div>
+    <!-- ----------portfolio----------->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="Images/work1.jpg" alt="">
+            <div class="layer">
+              <h3>Social Media App</h3>
+              <p>The app connects you to the talented people around the world. Download it from play store</p>
+              <a href="#">1</a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="Images/work2.jpg" alt="">
+            <div class="layer">
+              <h3>Music App</h3>
+              <p>The app connects you to the talented people around the world. Download it from play store</p>
+              <a href="#">2</a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="Images/work3.jpg" alt="">
+            <div class="layer">
+              <h3>Online Shopping App</h3>
+              <p>The app connects you to the talented people around the world. Download it from play store</p>
+              <a href="#">3</a>
+            </div>
+          </div>
+        </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+    
+    <!----------contact--------------->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p> <i class="fa-regular fa-envelope"></i> abhinavjnv2002@gmailcom</p>
+            <p> <i class="fas fa-phone-square"></i> 6201041680</p>
+            <div class="social-icons">
+              <a href=""><i class="fa-brands fa-facebook-square"></i></a>
+              <a href=""><i class="fa-brands fa-instagram-square"></i></a>
+              <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+              <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="Images/Abhinav_pic.png" download class="btn btn2">Download CV</a>
+          </div>
+          <div class="contact-right">
+            <form >
+              <input type="text" name="Name" placeholder="Your Name" required>
+              <input type="text" name="email" placeholder="Your Email" required>
+              <textarea name="Message" rows="6" placeholder="Your Meassage"></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        Copyright . made with <i class="fas fa-heart"></i> by Abhinav
+      </div>
+    </div>
+
+
+    <script>
+      var tablinks=document.getElementsByClassName("tab-links");
+      var tabcontents=document.getElementsByClassName("tab-contents");
+      
+      function opentab(tabname){
+        for(tablink of tablinks){
+          tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document .getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+
+    <script>
+      var sidemenu = document.getElementById("sidemenu");
+      function openmenu(){
+        sidemenu.style.right="0";
+      }
+      function closemenu(){
+        sidemenu.style.right="-200px";
+      }
+    </script>
+
+
+  </body>
+</html>
