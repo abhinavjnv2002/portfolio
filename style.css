@@ -326,12 +326,11 @@ nav .fas{
         background-image: url(Images/backgroundPhn.jpg);
     }
     .header-text{
-        margin-top: 400px;
+        margin-top: 410px;
         font-size: 16px;
     }
     .header-text h1{
-        font-size: 30px;
-        /* margin-top: 120px; */
+        font-size: 50px;
     }
     .logo{
         margin-top: 20px;
